@@ -1,0 +1,16 @@
+{
+  "name": "ai-prompt-test",
+  "version": "1.0.0",
+  "description": "Unit testing for prompts. Test prompt variations, edge cases, and consistency.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": { "ai-prompt-test": "dist/cli.js" },
+  "scripts": { "build": "tsc", "prepublishOnly": "npm run build" },
+  "keywords": ["ai", "llm", "prompt", "testing", "unit-test", "prompt-engineering", "cli", "npx", "developer-tools", "typescript"],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/lxgicstudios/ai-prompt-test" },
+  "dependencies": { "commander": "^12.1.0", "chalk": "^4.1.2" },
+  "devDependencies": { "typescript": "^5.6.0", "@types/node": "^22.0.0" },
+  "engines": { "node": ">=18" }
+}
